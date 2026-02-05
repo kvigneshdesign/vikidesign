@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from platol.netlify.app/aver/project-single by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Feb 2026 11:28:41 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <title>Aver - TailwindCSS Personal Portfolio Template</title>
+    
+    <meta name="author" content="Platol" />
+    <meta name="description" content="TailwindCSS Personal Portfolio Template" />
+    <meta property="og:title" content="Aver - TailwindCSS Personal Portfolio Template" />
+    <meta property="og:description" content="TailwindCSS Personal Portfolio Template" />
+    <meta property="og:image" content="images/ogimage.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:title" content="Aver - TailwindCSS Personal Portfolio Template" />
+    <meta name="twitter:image" content="images/ogimage.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="TailwindCSS Personal Portfolio Template" />
+    
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <link rel="stylesheet" href="styles/output.css">
+  </head>
+
+  <body>
+    <!-- start of header -->
+    <header class="fixed top-0 z-[9000] w-full header [&.invisible]:-translate-y-full">
+      <div class="container">
+        <div class="flex justify-between py-6 items-center relative">
+          <!-- logo -->
+          <div class="hideOnScroll lg:[&.scrolled]:opacity-0 lg:[&.scrolled]:-translate-x-8 w-1/4 transition-all duration-300">
+            <a class='inline-block align-middle' href='index.html'>
+              <img alt="Aver" width="80" height="29" src="images/logo.svg" />
+            </a>
+          </div>
+
+          <!-- navbar -->
+          <nav class="navbar">
+            <span class="indicator"></span>
+            <a href='index.html'>Home</a>
+            <a href='about.html'>About</a>
+            <a class='active' href='project.html'>Project</a>
+            <a href='blog.html'>Blog</a>
+            <a href='contact.html'>Contact</a>
+          </nav>
+          <div class="navOverlay"></div>
+
+          <!-- toggle mobile-nav -->
+          <button type="button" aria-label="Toggle Mobile Navigation" class="navToggler">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 8l16 0"></path>
+              <path d="M4 16l16 0"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M18 6l-12 12"></path>
+              <path d="M6 6l12 12"></path>
+            </svg>
+          </button>
+
+          <!-- social links -->
+          <div class="hideOnScroll lg:[&.scrolled]:opacity-0 lg:[&.scrolled]:translate-x-8 w-1/4 transition-all duration-300 text-right text-sm hidden lg:block">
+            <span class="block text-white/75 mb-1">Social Links:</span>
+            <ul class="inline-flex gap-x-4">
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://facebook.com/" class="link">FB</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://twitter.com/" class="link">TW</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://linkedin.com/" class="link">IN</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://github.com/" class="link">GITHUB</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- start of main -->
+    <main class="bg-dark relative z-10 pt-[92px] lg:pt-[106px] min-h-[82vh] overflow-hidden">
+      
+      <section class="pt-24 pb-28">
+        <div class="container">
+          <div class="row justify-center banner">
+            <div class="md:col-7 lg:col-6" data-aos="fade-up-sm">
+              <!-- project tag -->
+              <span class="inline-block text-sm rounded-full bg-[#efefef] px-3 py-1 capitalize text-black mb-6">UI UX Design</span>
+              <!-- project title -->
+              <h1 class="text-4xl md:text-5xl mb-4 !leading-tight">GDS Design Verification Plugin</h1>
+              <!-- project info -->
+              <p>Indegene</p>
+              
+              <!-- project details info -->
+              <ul class="row text-white mt-4">
+                <li class="col-6 mt-8">
+                  <p class="text-white/50 text-xs uppercase tracking-wider mb-2">Role</p>
+                  <div class="[&_a]:underline [&_a]:hover:no-underline [&_li]:mt-1">
+                    <p>UI/UX Design, UX Strategy, Interaction Design, UX Writing</p>
+                  </div>
+                </li>
+                <li class="col-6 mt-8">
+                  <p class="text-white/50 text-xs uppercase tracking-wider mb-2">Tools</p>
+                  <div class="[&_a]:underline [&_a]:hover:no-underline [&_li]:mt-1">
+                    <p>Figma, Design Systems, UX Architecture</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="md:col-5 lg:col-4 mt-12 md:mt-0" data-aos="fade-up-sm" data-aos-delay="100">
+              <!-- project image -->
+              <img alt="Shuvashini" loading="lazy" width="500" height="500" class="aspect-square object-cover object-center rounded-lg bg-light/20 w-full md:w-[500px]" src="images/project/04.jpg" />
+            </div>
+
+            <!-- divider -->
+            <div class="lg:col-10">
+              <hr class="opacity-5 mt-28 mb-24" />
+            </div>
+          </div>
+
+          <!-- start of project content -->
+          <div class="row justify-center" data-aos="fade-in">
+            <div class="lg:col-10">
+              <article class="content content-light [&_img]:w-full">
+                <h2>Project Overview</h2>
+                <p>The plugin UI is designed to help designers verify their designs against predefined design system rules without depending on manual reviews. It focuses on clarity, speed, and actionable feedback while handling complex validation logic in the background.
+                  <br>
+                This case study highlights UI decisions, UX flows, and business value, making it suitable for real-world enterprise design system teams.</p>
+                <p>
+                  <img src="images/project/01-00.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Problem Definition</h2>
+                <p>Design system violations are usually identified through manual design reviews, which are time-consuming and inconsistent. Designers often receive feedback late, without clear guidance on where or how to fix issues.</p>
+                <h2>Core UX Problem</h2>
+                <p>
+                  <ul>
+                    <li>Designers depend heavily on senior reviewers</li>
+                    <li>Feedback is scattered across comments and tools</li>
+                    <li>Difficult to track issues across multiple artboards</li>
+                    <li>No structured visibility into design quality</li>
+                  </ul>
+                </p>
+                <h2>Opportunity</h2>
+                <p>
+                  <ul>
+                    <li>Allows designers to self-verify</li>
+                    <li>Clearly explains what is wrong and why</li>
+                    <li>Reduces review cycles</li>
+                    <li>Scales across desktop and mobile designs</li>
+                  </ul>
+                </p>
+                <p>
+                  <img src="images/project/gdsplugin/p2.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>UX Goals</h2>
+                <p>
+                  <ul>
+                    <li>Enable designers to verify designs independently</li>
+                    <li>Reduce cognitive load during design reviews</li>
+                    <li>Provide clear, actionable error feedback</li>
+                    <li>Support both Desktop and Mobile workflows</li>
+                  </ul>
+                </p>
+                <h2>Success Metrics</h2>
+                <p>
+                  <ul>
+                    <li>Reduced review time per artboard</li>
+                    <li>Faster issue resolution</li>
+                    <li>Higher design system compliance rate</li>
+                    <li>Improved designer confidence and autonomy</li>
+                  </ul>
+                </p>
+                <h2>Target Users</h2>
+                <p><b>Primary Users</b> UI/UX Designers (Junior to Senior)</p>
+                <p><b>Secondary Users:</b> Design Leads, Design System Managers</p>
+                <p><b>Tertiary Users:</b> Developers, QA (via exported reports)</p>
+
+                <h2>Platform & Technical Context</h2>
+                <p>This verification tool is designed as a Figma plugin, allowing designers to validate their work directly inside the design environment without switching tools.</p>
+                <h2>Technology Context (High-Level)</h2>
+                <p>
+                  <ul>
+                    <li>Plugin UI designed in Figma</li>
+                    <li>Plugin logic powered by JSON-based rule definitions</li>
+                    <li>JSON is generated and maintained from structured Excel sheets</li>
+                  </ul>
+                </p>
+                <p>The technical details are intentionally abstracted in the UI so designers can focus purely on fixing issues, not understanding implementation complexity.</p>
+               
+                <p>
+                  <img src="images/project/img5.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Design Process Overview</h2>
+                <p>
+                  <ul>
+                    <li>Understanding existing manual review workflows</li>
+                    <li>Identifying repeatable design system checks</li>
+                    <li>Defining rule-to-design mappings</li>
+                    <li>Structuring UX flows for clarity and speed</li>
+                    <li>Designing error-first experiences</li>
+                    <li>Iterating based on usability feedback</li>
+                  </ul>
+                </p>
+                <p>
+                  <img src="images/project/img6.jpg" alt="Shuvashini 04." />
+                </p>
+                <p>
+                  <img src="images/project/img7.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Key UX & UI Design Decisions</h2>
+                <h4>1. Device-First Selection</h4>
+                <p>Design system rules differ for Desktop and Mobile. Placing device selection at the start prevents confusion and ensures contextual validation. </p>
+                <h4>2. Artboard List with Multi-Select</h4>
+                <p>Designers rarely work on single screens. Multi-artboard selection reflects real workflows and enables batch verification. </p>
+                <h4>3. Summary Before Details</h4>
+                <p>Showing total Errors and Success first gives designers a quick health check before diving deeper. </p>
+                <h4>4. Tab-Based Error Management</h4>
+                <p>Separating Errors and Success avoids clutter and keeps focus on fixes.</p>
+                <h4>5. Category Filters</h4>
+                <p>Typography, Color, Spacing & Padding, Dimensions, Component rules</p>
+
+                <h2>Error Card Structure</h2>
+                <p>
+                  <ul>
+                    <li>Component name</li>
+                    <li>Number of errors in the same component</li>
+                    <li>Error category (typography, color, spacing, etc.)</li>
+                    <li>Layer name</li>
+                    <li>Property checked</li>
+                    <li>Found value vs Expected value</li>
+                    <li>Locate Me button to jump to the exact layer</li>
+                  </ul>
+                </p>    
+                <h2>Why This Matters</h2>
+                <p>
+                  <ul>
+                    <li>Removes guesswork</li>
+                    <li>Saves navigation time</li>
+                    <li>Encourages immediate fixing</li>
+                    <li>Builds trust in automated validation</li>
+                  </ul>
+                </p>  
+                <p>
+                  <img src="images/project/typography.jpg" alt="Shuvashini 04." />
+                </p>          
+                <h2>Backend Rule System</h2>
+                <p>Design system rules are authored and maintained in a structured Excel file by the design system team.</p>
+                <h4>Rule Structure</h4>
+                <p>
+                  <ul>
+                    <li>Component name</li>
+                    <li>Layer name</li>
+                    <li>Variant</li>
+                    <li>Typography (font family, size, weight, line height)</li>
+                    <li>Padding & Spacing</li>
+                    <li>Gap values</li>
+                    <li>Color tokens</li>
+                  </ul>
+                </p>
+                <h4>Progress Indicator</h4>
+                <p>
+                  <ul>
+                    <li>Total artboards verified</li>
+                    <li>Desktop vs Mobile count</li>
+                    <li>Report generation status</li>
+                  </ul>
+                </p>    
+                <h4>JSON Conversion Layer</h4>
+                <p>The Excel rules are converted into JSON format, which the Figma plugin consumes for validation.</p>    
+                <p>
+                  <img src="images/project/img11.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Validation Logic (Conceptual)</h2>
+                <p>
+                  <ul>
+                    <li>Plugin reads selected artboards</li>
+                    <li>Extracts layer properties from Figma</li>
+                    <li>Compares values against JSON rules</li>
+                    <li>Returns pass or error states to the UI</li>
+                  </ul>
+                </p>    
+                <h2>UX Benefit</h2>
+                <p>
+                  <ul>
+                    <li>Rules can be updated without redesigning the plugin UI</li>
+                    <li>Consistent validation across teams and files</li>
+                    <li>Easy scalability as design systems grow</li>
+                  </ul>
+                </p>
+                <p>
+                  <img src="images/project/img11.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Why Excel Reports?</h2>
+                <p>
+                  <ul>
+                    <li>Easy sharing with stakeholders</li>
+                    <li>Developer-friendly reference</li>
+                    <li>Audit-ready documentation</li>
+                  </ul>
+                </p>    
+                <h2>The report includes:</h2>
+                <p>
+                  <ul>
+                    <li>Artboard name</li>
+                    <li>Device type</li>
+                    <li>Component</li>
+                    <li>Error category</li>
+                    <li>Found vs Expected values</li>
+                    <li>Status</li>
+                  </ul>
+                </p>
+                <p>
+                  <img src="images/project/img11.jpg" alt="Shuvashini 04." />
+                </p> 
+                <h2>Usability Outcomes</h2>
+                <p>
+                  <ul>
+                    <li>Designers fix issues faster with precise navigation</li>
+                    <li>Reduced back-and-forth with reviewers</li>
+                    <li>Improved trust in design system rules</li>
+                    <li>Higher adoption of the plugin across teams</li>
+                  </ul>
+                </p>    
+                <h2>Business Impact</h2>
+                <p>
+                  <ul>
+                    <li>60–70% reduction in manual review time</li>
+                    <li>Scalable design governance without increasing headcount</li>
+                    <li>Improved design-to-development handoff</li>
+                    <li>Stronger design system compliance</li>
+                  </ul>
+                </p>
+                <h2>Key Learnings</h2>
+                <p>
+                  <ul>
+                    <li>Designers prefer actionable feedback over generic warnings</li>
+                    <li>Navigation to exact layers is critical for adoption</li>
+                    <li>Categorization significantly improves efficiency</li>
+                  </ul>
+                </p>    
+                <h2>Future Enhancements</h2>
+                <p>
+                  <ul>
+                    <li>Real-time validation while designing</li>
+                    <li>Severity levels for errors</li>
+                    <li>Jira / DevOps integration</li>
+                    <li>Version comparison between design updates</li>
+                  </ul>
+                </p>
+                <h2>Final Thoughts</h2>
+                <p>This GDS Verification Plugin UI design demonstrates how thoughtful UX can simplify a highly complex design governance problem.</p>
+                <p>
+                  <ul>
+                    <li>Clear step-by-step flows</li>
+                    <li>Actionable error feedback</li>
+                    <li>Strong visual hierarchy</li>
+                    <li>Scalable system thinking</li>
+                  </ul>
+                </p> 
+                <p>the plugin empowers designers to own design quality while supporting business scalability.                </p>
+                <p>This case study reflects my ability to design enterprise-ready UX, balance usability with system constraints, and translate abstract design system rules into intuitive user experiences.</p>
+              </article>
+            </div>
+          </div>
+          <!-- end project content -->
+        </div>
+      </section>
+
+      <!-- start of next-project -->
+      <section class="py-28 bg-white text-dark rounded-b-2xl overflow-hidden">
+        <div class="container">
+          <div class="mb-16">
+            <!-- next-project -->
+            <h2 class="text-4xl lg:text-5xl font-secondary font-medium -mt-[6px] text-center">Next Project</h2>
+          </div>
+          <div class="row justify-center">
+            <div class="lg:col-6">
+              <div data-aos="true" class="rounded-lg overflow-hidden relative group h-full">
+                <span class="absolute h-full group-[.aos-animate]:h-0 w-full z-30 duration-700 left-0 bottom-0" style="background-color:#55487D;transition-delay:0ms"></span>
+                
+                <!-- next-project image -->
+                <img alt="Curoloy" loading="lazy" width="620" height="420" class="scale-150 group-[.aos-animate]:scale-100 duration-700 group-hover:!scale-125 object-cover w-full bg-light/20 has-twoColumns h-[376px]" style="height:376px" src="images/project/02.jpg" />
+                <div class="absolute inset-0 z-20 flex justify-center flex-col p-8">
+                  <span class="absolute h-full w-full duration-300 left-0 bottom-0 opacity-0 bg-overlay group-hover:opacity-100 -z-10 pointer-events-none"></span>
+                  <div class="flex items-center justify-between opacity-0 -mt-1 group-hover:opacity-100 group-hover:mt-0 duration-300 group-hover:delay-300">
+                    <!-- next-project tag -->
+                    <span class="uppercase text-white bg-white/25 text-sm font-light tracking-wider px-3 py-1 rounded-full backdrop-blur-lg">Mobile App</span>
+                    
+                    <!-- next-project link -->
+                    <a class='stretched-link' href='project-single.html'>
+                      <img alt="arrow" loading="lazy" width="25" height="22" class="inline-block rotate-[135deg]" src="images/arrow-right.svg" />
+                    </a>
+                  </div>
+                  <div class="text-center mt-auto">
+                    <h3 class="text-4xl font-secondary font-semibold text-white mb-2 relative overflow-hidden">
+                      <!-- next-project title -->
+                      <span class="block translate-y-full group-hover:translate-y-0 duration-300">Curoloy</span>
+                    </h3>
+                    <!-- next-project category -->
+                    <p class="text-white font-light relative overflow-hidden">
+                      <span class="block translate-y-full group-hover:translate-y-0 duration-300 group-hover:delay-150">Branding</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of next-project -->
+          
+    </main>
+    <!-- end of main -->
+
+    <!-- ================= start of footer ================= -->
+    <footer class="pt-28 pb-20 sticky bottom-0 z-[1]">
+      <div class="mb-16 overflow-hidden">
+        <a class='footer-cta block text-4xl md:text-5xl font-secondary font-medium mb-8' href='contact.html'>
+          <!-- Scrolling Line 1 -->
+          <div class="animated-line animated-line-one mb-5">
+            <div class="line-block">
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+            </div>
+            <div class="line-block-copy">
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+            </div>
+          </div>
+          <!-- Scrolling Line 2 -->
+          <div class="animated-line animated-line-two">
+            <div class="line-block">
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+            </div>
+            <div class="line-block-copy">
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="md:col-6 text-center md:text-left mb-4">
+            <!-- Social Links -->
+            <ul class="inline-flex flex-wrap justify-center md:justify-start gap-x-6">
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://facebook.com/" class="link">Facebook</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://twitter.com/" class="link">Twitter</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://linkedin.com/" class="link">Linkedin</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://github.com/" class="link">Github</a>
+              </li>
+            </ul>
+          </div>
+          <div class="md:col-6 text-center md:text-right mb-4">
+            <!-- Footer Menu -->
+            <ul class="inline-flex flex-wrap justify-center md:justify-end gap-x-6">
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a class='link' href='index-2.html'>Home v2</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a class='link' href='privacy.html'>Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Copyright -->
+          <div class="md:col-6 text-center md:text-left mb-4 md:mb-0">
+            <p class="text-white/75">© 2023 Aver. All rights reserved.</p>
+          </div>
+          <!-- Developer Info -->
+          <div class="md:col-6 text-center md:text-right">
+            <p class="text-white/75">Developed by <a class="link text-white" href="https://themeforest.net/user/platol/portfolio" target="_blank" rel="noopener noreferrer">Platol</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ================= end of footer ================= -->
+
+    <!-- start of script -->
+    <script src="plugins/aos/aos.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+
+<!-- Mirrored from platol.netlify.app/aver/project-single by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Feb 2026 11:28:45 GMT -->
+</html>

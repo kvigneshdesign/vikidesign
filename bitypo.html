@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from platol.netlify.app/aver/project-single by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Feb 2026 11:28:41 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <title>Aver - TailwindCSS Personal Portfolio Template</title>
+    
+    <meta name="author" content="Platol" />
+    <meta name="description" content="TailwindCSS Personal Portfolio Template" />
+    <meta property="og:title" content="Aver - TailwindCSS Personal Portfolio Template" />
+    <meta property="og:description" content="TailwindCSS Personal Portfolio Template" />
+    <meta property="og:image" content="images/ogimage.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:title" content="Aver - TailwindCSS Personal Portfolio Template" />
+    <meta name="twitter:image" content="images/ogimage.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="TailwindCSS Personal Portfolio Template" />
+    
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <link rel="stylesheet" href="styles/output.css">
+  </head>
+
+  <body>
+    <!-- start of header -->
+    <header class="fixed top-0 z-[9000] w-full header [&.invisible]:-translate-y-full">
+      <div class="container">
+        <div class="flex justify-between py-6 items-center relative">
+          <!-- logo -->
+          <div class="hideOnScroll lg:[&.scrolled]:opacity-0 lg:[&.scrolled]:-translate-x-8 w-1/4 transition-all duration-300">
+            <a class='inline-block align-middle' href='index.html'>
+              <img alt="Aver" width="80" height="29" src="images/logo.svg" />
+            </a>
+          </div>
+
+          <!-- navbar -->
+          <nav class="navbar">
+            <span class="indicator"></span>
+            <a href='index.html'>Home</a>
+            <a href='about.html'>About</a>
+            <a class='active' href='project.html'>Project</a>
+            <a href='blog.html'>Blog</a>
+            <a href='contact.html'>Contact</a>
+          </nav>
+          <div class="navOverlay"></div>
+
+          <!-- toggle mobile-nav -->
+          <button type="button" aria-label="Toggle Mobile Navigation" class="navToggler">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 8l16 0"></path>
+              <path d="M4 16l16 0"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M18 6l-12 12"></path>
+              <path d="M6 6l12 12"></path>
+            </svg>
+          </button>
+
+          <!-- social links -->
+          <div class="hideOnScroll lg:[&.scrolled]:opacity-0 lg:[&.scrolled]:translate-x-8 w-1/4 transition-all duration-300 text-right text-sm hidden lg:block">
+            <span class="block text-white/75 mb-1">Social Links:</span>
+            <ul class="inline-flex gap-x-4">
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://facebook.com/" class="link">FB</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://twitter.com/" class="link">TW</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://linkedin.com/" class="link">IN</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://github.com/" class="link">GITHUB</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- start of main -->
+    <main class="bg-dark relative z-10 pt-[92px] lg:pt-[106px] min-h-[82vh] overflow-hidden">
+      
+      <section class="pt-24 pb-28">
+        <div class="container">
+          <div class="row justify-center banner">
+            <div class="md:col-7 lg:col-6" data-aos="fade-up-sm">
+              <!-- project tag -->
+              <span class="inline-block text-sm rounded-full bg-[#efefef] px-3 py-1 capitalize text-black mb-6">UI UX Design</span>
+              <!-- project title -->
+              <h1 class="text-4xl md:text-5xl mb-4 !leading-tight">Design System Typography Case Study</h1>
+              <!-- project info -->
+              <p>Boehringer Ingelheim</p>
+              
+              <!-- project details info -->
+              <ul class="row text-white mt-4">
+                <li class="col-6 mt-8">
+                  <p class="text-white/50 text-xs uppercase tracking-wider mb-2">Scope</p>
+                  <div class="[&_a]:underline [&_a]:hover:no-underline [&_li]:mt-1">
+                    <p>Desktop & Mobile</p>
+                  </div>
+                </li>
+                <li class="col-6 mt-8">
+                  <p class="text-white/50 text-xs uppercase tracking-wider mb-2">Focus</p>
+                  <div class="[&_a]:underline [&_a]:hover:no-underline [&_li]:mt-1">
+                    <p>Readability, Hierarchy, Responsiveness, Scalability</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="md:col-5 lg:col-4 mt-12 md:mt-0" data-aos="fade-up-sm" data-aos-delay="100">
+              <!-- project image -->
+              <img alt="Shuvashini" loading="lazy" width="500" height="500" class="aspect-square object-cover object-center rounded-lg bg-light/20 w-full md:w-[500px]" src="images/project/04.jpg" />
+            </div>
+
+            <!-- divider -->
+            <div class="lg:col-10">
+              <hr class="opacity-5 mt-28 mb-24" />
+            </div>
+          </div>
+
+          <!-- start of project content -->
+          <div class="row justify-center" data-aos="fade-in">
+            <div class="lg:col-10">
+              <article class="content content-light [&_img]:w-full">
+                <h2>Project Overview</h2>
+                <p>This project focuses on researching and defining a typography system for a new design system, intended for use across desktop and mobile platforms.
+                  <br>
+                The goal was to create a scalable, readable, and consistent typographic foundation that supports complex content, improves usability, and enables efficient design-to-development workflows. Industry design systems and previous typography evaluations were used as reference inputs throughout the research.</p>
+                <p>
+                  <img src="images/project/01-00.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Problem Statement</h2>
+                <p>Boehringer Ingelheim’s digital products lacked a unified typography system across web and internal platforms, leading to inconsistent hierarchy, reduced readability for long-form medical content, accessibility risks, and increased effort for designers and developers during implementation.</p>
+                <h2>Why Typography Is Critical in Pharma</h2>
+                <p>
+                  <ul>
+                    <li>Long-form scientific and medical content</li>
+                    <li>High readability requirements for clinicians & patients</li>
+                    <li>Regulatory and accessibility compliance</li>
+                    <li>Global audiences with varied reading habits</li>
+                  </ul>
+                </p>
+                <p>
+                  <img src="images/project/img2.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Objectives</h2>
+                <p>
+                  <ul>
+                    <li>Establish a clear typographic hierarchy</li>
+                    <li>Improve text readability across desktop and mobile</li>
+                    <li>Define scalable font sizes and spacing rules</li>
+                    <li>Align typography with design system best practices</li>
+                    <li>Support smooth developer handoff</li>
+                  </ul>
+                </p>
+                <h2>Industry Research</h2>
+                <p>To identify best practices, typography systems from established design systems were reviewed, including Material Design, Apple Human Interface Guidelines, and enterprise-level systems.</p>
+                <p>
+                  <ul>
+                    <li>Limiting font families improves consistency</li>
+                    <li>Clear separation between heading and body fonts strengthens hierarchy</li>
+                    <li>Line height significantly impacts readability</li>
+                    <li>Responsive typography requires device-specific adjustments</li>
+                  </ul>
+                </p>
+                <h2>Typography Use Cases</h2>
+                <p>Typography was evaluated across real UI scenarios:</p>
+                <p>
+                  <ul>
+                    <li>Page titles and section headings</li>
+                    <li>Long-form body content</li>
+                    <li>Buttons and call-to-action text</li>
+                    <li>Form labels, helper text, and validation messages</li>
+                    <li>Informational and instructional content</li>
+                  </ul>
+                  <p>Each use case influenced font size, weight, and spacing decisions.</p>
+                </p>
+                <p>
+                  <img src="images/project/sec.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Font Selection</h2>
+                <p>Font selection focused on legibility, clarity, and scalability.</p>
+                <p><b>Heading Font: Boehringer Headline:</b> Page titles, section headers, key highlights</p>
+                <p><b>Body & UI Font: Boehringer Text</b> Body content, buttons, labels, form fields, helper text</p>
+                <p>
+                  <img src="images/project/img4.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Typography Scale</h2>
+                <p>The typography scale was built using a modular ratio (1.1, 1.2, 1.4) to maintain visual rhythm across headings, lead paragraph and body text. Line heights were adjusted based on text size to ensure optimal readability for long-form pharmaceutical content.</p>
+                <p>
+                  <img src="images/project/img5.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>Line Height &amp; Spacing - Desktop &amp; Mobile</h2>
+                <p>
+                  <b>Headings:</b>1.1x font size - Strong, compact appearance <br>
+                  <b>Lead Paragraph:</b>1.2x font size Balanced clarity <br>
+                  <b>Body:</b>1.4x font size Comfortable reading experience
+                </p>
+                <p>
+                  <img src="images/project/img6.jpg" alt="Shuvashini 04." />
+                </p>
+                <p>
+                  <img src="images/project/img7.jpg" alt="Shuvashini 04." />
+                </p>
+                <h2>What Achieved by Design</h2>
+                <p>
+                  <ul>
+                    <li>A clear and reusable typography hierarchy</li>
+                    <li>Improved readability across devices</li>
+                    <li>Consistent spacing and visual rhythm</li>
+                    <li>A strong foundation for future design system components</li>
+                  </ul>
+                </p>
+                <h2>Accessibility</h2>
+                <p>
+                  <ul>
+                    <li>WCAG contrast considerations</li>
+                    <li>Minimum font sizes</li>
+                    <li>Line height benefits for readability</li>
+                    <li>Accessibility-first approach for healthcare users</li>
+                  </ul>
+                </p>    
+                <p>
+                  <img src="images/project/typography.jpg" alt="Shuvashini 04." />
+                </p>          
+                <h2>Impact & Results</h2>
+                <p>
+                  <ul>
+                    <li>Reduced ambiguity in heading usage</li>
+                    <li>Faster handoff between design and development</li>
+                    <li>Improved readability for long medical articles</li>
+                    <li>Consistent typography across multiple products</li>
+                  </ul>
+                </p>    
+                <p>
+                  <img src="images/project/img11.jpg" alt="Shuvashini 04." />
+                </p>  
+                <h2>Final Thoughts</h2>
+                <p>This project reinforced the importance of typography as a foundational system rather than a visual layer, especially in regulated industries like healthcare.                </p> 
+              </article>
+            </div>
+          </div>
+          <!-- end project content -->
+        </div>
+      </section>
+
+      <!-- start of next-project -->
+      <section class="py-28 bg-white text-dark rounded-b-2xl overflow-hidden">
+        <div class="container">
+          <div class="mb-16">
+            <!-- next-project -->
+            <h2 class="text-4xl lg:text-5xl font-secondary font-medium -mt-[6px] text-center">Next Project</h2>
+          </div>
+          <div class="row justify-center">
+            <div class="lg:col-6">
+              <div data-aos="true" class="rounded-lg overflow-hidden relative group h-full">
+                <span class="absolute h-full group-[.aos-animate]:h-0 w-full z-30 duration-700 left-0 bottom-0" style="background-color:#55487D;transition-delay:0ms"></span>
+                
+                <!-- next-project image -->
+                <img alt="Curoloy" loading="lazy" width="620" height="420" class="scale-150 group-[.aos-animate]:scale-100 duration-700 group-hover:!scale-125 object-cover w-full bg-light/20 has-twoColumns h-[376px]" style="height:376px" src="images/project/02.jpg" />
+                <div class="absolute inset-0 z-20 flex justify-center flex-col p-8">
+                  <span class="absolute h-full w-full duration-300 left-0 bottom-0 opacity-0 bg-overlay group-hover:opacity-100 -z-10 pointer-events-none"></span>
+                  <div class="flex items-center justify-between opacity-0 -mt-1 group-hover:opacity-100 group-hover:mt-0 duration-300 group-hover:delay-300">
+                    <!-- next-project tag -->
+                    <span class="uppercase text-white bg-white/25 text-sm font-light tracking-wider px-3 py-1 rounded-full backdrop-blur-lg">Mobile App</span>
+                    
+                    <!-- next-project link -->
+                    <a class='stretched-link' href='project-single.html'>
+                      <img alt="arrow" loading="lazy" width="25" height="22" class="inline-block rotate-[135deg]" src="images/arrow-right.svg" />
+                    </a>
+                  </div>
+                  <div class="text-center mt-auto">
+                    <h3 class="text-4xl font-secondary font-semibold text-white mb-2 relative overflow-hidden">
+                      <!-- next-project title -->
+                      <span class="block translate-y-full group-hover:translate-y-0 duration-300">Curoloy</span>
+                    </h3>
+                    <!-- next-project category -->
+                    <p class="text-white font-light relative overflow-hidden">
+                      <span class="block translate-y-full group-hover:translate-y-0 duration-300 group-hover:delay-150">Branding</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of next-project -->
+          
+    </main>
+    <!-- end of main -->
+
+    <!-- ================= start of footer ================= -->
+    <footer class="pt-28 pb-20 sticky bottom-0 z-[1]">
+      <div class="mb-16 overflow-hidden">
+        <a class='footer-cta block text-4xl md:text-5xl font-secondary font-medium mb-8' href='contact.html'>
+          <!-- Scrolling Line 1 -->
+          <div class="animated-line animated-line-one mb-5">
+            <div class="line-block">
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+            </div>
+            <div class="line-block-copy">
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+            </div>
+          </div>
+          <!-- Scrolling Line 2 -->
+          <div class="animated-line animated-line-two">
+            <div class="line-block">
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+            </div>
+            <div class="line-block-copy">
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+              <span class="mr-20 md:mr-24">
+                <span class="cta-text">Let’s make something</span>
+                <img alt="arrow-right" loading="lazy" width="39" height="31" class="inline-block ml-10 md:ml-16 cta-icon" src="images/arrow-right.svg" />
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="md:col-6 text-center md:text-left mb-4">
+            <!-- Social Links -->
+            <ul class="inline-flex flex-wrap justify-center md:justify-start gap-x-6">
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://facebook.com/" class="link">Facebook</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://twitter.com/" class="link">Twitter</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://linkedin.com/" class="link">Linkedin</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a href="https://github.com/" class="link">Github</a>
+              </li>
+            </ul>
+          </div>
+          <div class="md:col-6 text-center md:text-right mb-4">
+            <!-- Footer Menu -->
+            <ul class="inline-flex flex-wrap justify-center md:justify-end gap-x-6">
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a class='link' href='index-2.html'>Home v2</a>
+              </li>
+              <li class="inline-block hover:opacity-75 transition-op duration-300">
+                <a class='link' href='privacy.html'>Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Copyright -->
+          <div class="md:col-6 text-center md:text-left mb-4 md:mb-0">
+            <p class="text-white/75">© 2023 Aver. All rights reserved.</p>
+          </div>
+          <!-- Developer Info -->
+          <div class="md:col-6 text-center md:text-right">
+            <p class="text-white/75">Developed by <a class="link text-white" href="https://themeforest.net/user/platol/portfolio" target="_blank" rel="noopener noreferrer">Platol</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ================= end of footer ================= -->
+
+    <!-- start of script -->
+    <script src="plugins/aos/aos.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+
+<!-- Mirrored from platol.netlify.app/aver/project-single by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Feb 2026 11:28:45 GMT -->
+</html>
