@@ -4027,7 +4027,6 @@ select:-webkit-autofill:focus {
 
   .md\:col-6{
     flex: 0 0 auto;
-    width: 50%;
   }
 
   .md\:col-7{
@@ -4570,7 +4569,7 @@ select:-webkit-autofill:focus {
   }
 
   .md\:text-left{
-    text-align: left;
+    text-align: center;
   }
 
   .md\:text-right{
